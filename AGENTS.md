@@ -22,7 +22,7 @@
 
 ## Documentation Rules
 
-- 根 README 对外文档包含 `README.md`、`README_EN.md`、`README_JA.md`；涉及用户可见能力、安装、OpenClaw、MCP、Relay、API Key 或环境地址时默认三语同步。
+- 根 README 对外文档包含 `README.md`（英文，默认）、`README_CN.md`（中文）、`README_JA.md`（日文）；涉及用户可见能力、安装、OpenClaw、MCP、Relay、API Key 或环境地址时默认三语同步。
 - Docker 部署说明涉及生产部署、环境变量或 `docker compose` 时，同步检查 `DOCKER_DEPLOYMENT_CN.md` 和 `DOCKER_DEPLOYMENT_EN.md`。
 - README 类改动保持最小可用改写，不要把参考文档整段复制进来。
 - 用户可见 README、skill、capability reference 只写当前能力与环境规则，不写 `dev`、测试环境、验证日期等来源说明。
